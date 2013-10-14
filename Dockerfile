@@ -6,5 +6,6 @@ MAINTAINER Andre Sachs
 ADD sources.list /etc/apt/sources.list.d/
 RUN apt-get update
 
-RUN apt-get install -y libavcodec53 libavcodec-extra-53 libavdevice53 libavfilter2 libavformat53
+RUN apt-get install -y libavcodec-extra-53
+RUN apt-get install -y libavcodec53 libavdevice53 libavfilter2 libavformat53
 RUN apt-get install -y ffmpeg
