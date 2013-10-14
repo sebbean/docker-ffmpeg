@@ -1,6 +1,6 @@
 FROM ubuntu:12.04
 
-MAINTAINER Andre Sachs
+MAINTAINER Sebastian Bean
 
 # Install apt repo and update
 ADD sources.list /etc/apt/sources.list.d/
